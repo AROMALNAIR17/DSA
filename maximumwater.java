@@ -4,9 +4,9 @@ public class maximumwater{
         int right=height.length-1;
         int maxarea=0;
         while(left<right){
-            int width=height[left]-height[right];
+            int width=right-left;
             int minheight=Math.min(height[left],height[right]);
-            int area=minheight*width;
+            int area=width*minheight;
             maxarea=Math.max(maxarea,area);
             if(height[left]<height[right]){
                 left++;
