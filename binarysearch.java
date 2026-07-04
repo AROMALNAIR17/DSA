@@ -24,5 +24,8 @@ public class binarysearch{
     public static void main(String[] args) {
         int[] nums ={2,4,5,6,7,8,9};
         System.out.println(search(nums,9));
+        /*int target =9;
+        int result=search(nums,target);
+        System.out.println(result);*/
     }
 }
